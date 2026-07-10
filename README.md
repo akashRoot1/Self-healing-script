@@ -34,6 +34,8 @@ This framework heals itself:
 I built a demo Flask website to prove it. The primary button text changes on every refresh: `Print, Prints, Publish, Save & Print, Print Now, Output...`
 
 Old locator fails. Healed locator passes every time.
+<img width="1913" height="950" alt="image" src="https://github.com/user-attachments/assets/66c05744-2772-4c80-86ce-2755ec22fa3d" />
+
 
 ### 🏗️ Project Structure
 ```
@@ -67,6 +69,8 @@ Download from: https://ollama.com/download
 ollama pull llama3.2
 ollama serve
 ```
+<img width="1721" height="193" alt="image" src="https://github.com/user-attachments/assets/448199a2-5595-4c41-9630-83175b7f5884" />
+
 Leave `ollama serve` running in one terminal.
 
 ### 🚀 How to Run
@@ -78,11 +82,15 @@ You need **2 terminals**.
 python app.py
 ```
 Website will run at `http://localhost:5000`
+<img width="1913" height="950" alt="image" src="https://github.com/user-attachments/assets/66c05744-2772-4c80-86ce-2755ec22fa3d" />
+
 
 **Terminal 2 - Run Self-Healing Test:**
 ```bash
 python -u test_simple.py
 ```
+<img width="997" height="185" alt="image" src="https://github.com/user-attachments/assets/76ed1dd3-4922-4f55-a02b-749c803ff37e" />
+
 
 ### ✅ Expected Output
 
